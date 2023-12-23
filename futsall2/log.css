@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('p.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.p {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    width: 30%;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.p h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.p .input-box {
+    position: relative;
+    width: 113%;
+    height: 62px;
+    margin: 30px 0;
+}
+
+.p .input-box i {
+    position: absolute;
+    font-size: 20px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.input-box input,
+.input-box select {
+    width: calc(100% - 40px);
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 50px;
+
+}
+
+.input-box select option {
+    background-color: grey  ;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.input-box input::placeholder,
+.input-box select::placeholder {
+    color: #fff;
+}
+
+.input-box select::after {
+    content: '\f107';
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+
+}
+
+.input-box select option[disabled] {
+    color: #999;
+}
+
+
+.p .btn {
+    width: 45%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.p .btnn {
+    width: 45%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 27px;
+}   

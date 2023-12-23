@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #F0F4F7;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #39424E;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #E6E6E6; 
+}
+
+a {
+    position: relative;
+    color: #E6E6E6;
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+    transition: background 0.3s; 
+}
+
+nav .fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    color: #E6E6E6; 
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover {
+    background: #546E7A; 
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+
+.main{
+  position: relative;
+  padding: 20px;
+  width: calc(100% - 280px); 
+}
+
+.main-skills{
+  display: flex;
+  margin-top: 50px; 
+  justify-content: center; 
+}
+.main-skills .card{
+  width: 200px; 
+  margin: 10px;
+  background: #FFFFFF; 
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.main-skills .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+  color: #37474F; 
+}
+.main-skills .card p{
+  font-size: 14px;
+  color: #546E7A; 
+}
+.main-skills .card button{
+  background: #5ca904; 
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s; 
+}
+.main-skills .card button:hover{
+  background: #E64A19;
+}
+.main-skills .card i{
+  font-size: 24px; 
+  padding: 10px;
+  color: #5ca904; 
+}
